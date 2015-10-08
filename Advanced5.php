@@ -14,9 +14,7 @@
 	$count = 0;
 	for($j = 0; $j < count($array); $j++){
 		$min = $array[$j];
-		$max = $array[$j];
 		$minindex = $j;
-		$maxindex = $j;
 		for($i = $j; $i < count($array); $i++){
 			if($array[$i] < $min){
 				$min = $array[$i];
